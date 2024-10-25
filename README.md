@@ -1,15 +1,8 @@
 # Task Management Web Application
 
-This repository contains the code for a Task Management Web Application, which includes a frontend and a backend. The application allows users to manage tasks, including creating, updating, and deleting them. Additionally, it provides a user authentication system (bonus feature) and can be deployed to a cloud provider (bonus feature).
+It contains the code for a Task Management Web Application, which includes a frontend and a backend. The application allows users to manage tasks, including creating, updating, and deleting them. Additionally, it provides a user authentication system.
 
-## Table of Contents
-- [Requirements](#requirements)
-- [Features](#features)
-- [Installation](#installation)
-
-## Requirements
-
-To successfully complete this project, I completed the following requirements:
+# Technologies Used :
 
 ### Backend API
 
@@ -20,7 +13,6 @@ To successfully complete this project, I completed the following requirements:
   - `POST /tasks`: Add a new task.
   - `PUT /tasks/:id`: Update a task by ID.
   - `DELETE /tasks/:id`: Delete a task by ID.
-- Use persistent data storage (e.g., a relational database, NoSQL database, or an ORM like SQLAlchemy for Python).
 - Include error handling for incorrect route access or invalid data inputs.
 
 ### Frontend
@@ -45,7 +37,7 @@ To successfully complete this project, I completed the following requirements:
 - **User Authentication:** Register, log in, and log out users. Only authenticated users can manage tasks.
 - **Responsive Design:** The application is designed to work well on various screen sizes.
 - **Deployment:** The application is deployed and accessible online ([MERN Task Management App](https://mern-task-management-client.vercel.app/)).
-- **Tech Stack:** MERN stack with TailwindCSS
+- **Tech Stack:** MERN stack
 
 ## Installation
 
@@ -68,11 +60,11 @@ To run this application locally, follow these steps:
    ```bash
    # Install frontend dependencies
    cd client
-   npm install # or yarn install
+   npm install 
 
    # Install backend dependencies
    cd ../server
-   npm install # or yarn install
+   npm install 
    ```
 
 4. Configure the environment variables for the backend:
